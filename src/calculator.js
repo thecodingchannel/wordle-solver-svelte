@@ -37,8 +37,10 @@ function analyseWord(knowledge, word, states) {
         const char = word[i];
         const state = states[i];
 
-        // Keep track of how many times letters appear in this word
-        foundLetters[char] = (foundLetters[char] || 0) + 1;
+        // Keep track of how many times 'present' letters appear in this word
+        if (state == 'present') {
+            foundLetters[char] = (foundLetters[char] || 0) + 1;
+        }
 
         // Ensure we have an info object for this letter
         if (!(char in knowledge)) {
