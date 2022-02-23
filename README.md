@@ -1,6 +1,6 @@
 # What is this?
 
-In this repository you'll find the full source code for our Wordle solver. The code accompanies our [blog post](https://blog.tiia.rocks/we-built-a-wordle-solver-in-svelte-here-is-how-we-did-it) teaching you how to make your.
+In this repository you'll find the full source code for our Wordle solver. The code accompanies our [blog post](https://blog.tiia.rocks/we-build-a-wordle-solver-in-svelte-here-is-how-we-did-it) teaching you how to make your.
 
 # How to get started?
 
